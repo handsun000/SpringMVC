@@ -31,7 +31,7 @@ public class MappingClassController {
 
     @PatchMapping("{userId}")
     public String updateUser(@PathVariable String userId) {
-        return "uadate userId=" + userId;
+        return "update userId=" + userId;
     }
 
     @DeleteMapping("{userId}")
